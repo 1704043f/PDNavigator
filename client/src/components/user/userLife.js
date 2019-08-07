@@ -82,7 +82,13 @@ import { PDADLs } from '../../constants'
                 <br />
                 <UserNavButton type="button" width="100%" text="SAVE AND CONTINUE" handleBtn={this.handleNext} />
 
-                { warningModal && <BtnPlusModal btnType="none" modalTitle="This question is important!" modalText="Many treatments and clinical trials in Parkinson disease are only appropriate for patients affected by Parkinson disease to a certain degree or in a certain way. Answering this question is importnat as it helps us further individualize the treatments and trials we suggest may be appropriate for you." modalWarning={true} /> }
+                { warningModal && <BtnPlusModal 
+                    btnType="none" 
+                    modalTitle="This question is important!"
+                    modalText="Many treatments and clinical trials in Parkinson disease are only appropriate for patients affected by Parkinson disease to a certain degree or in a certain way. Answering this question is importnat as it helps us further individualize the treatments and trials we suggest may be appropriate for you."
+                    modalWarning={true} 
+                    /> 
+                }
 
             </React.Fragment>
         );

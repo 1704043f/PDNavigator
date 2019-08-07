@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Routes from './Routes';
-import "./App.css";
+// import "./App.css";
 import { withRouter } from "react-router-dom";
 import { connect } from 'react-redux';
 import  AppBar from './components/AppBar';

@@ -14,8 +14,6 @@ const styles = () => ({
         borderColor: QUESTION_BUTTON_DEFAULT_COLOR,
         borderRadius: "50%",
         marginLeft: "20px",
-        position: "relative",
-        top: "5px",
          '&:hover': {
              backgroundColor: "white",
          },
@@ -39,7 +37,7 @@ class DisplayQuestionButton extends PureComponent  {
         return (
             <Button type="button" 
                 className={classes.questionButton}  
-                style={{position: "relative", top: "-5px", borderColor: active ? QUESTION_BUTTON_ACTIVE_PRIMARY_COLOR : null}} 
+                style={{borderColor: active ? QUESTION_BUTTON_ACTIVE_PRIMARY_COLOR : null}} 
                 onClick={() => this.handleSelect(index, "", questionKey)}
             >
                 <DisplayQuestionButtonIcon answerConditional={active ? true : false} />

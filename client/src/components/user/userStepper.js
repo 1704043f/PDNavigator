@@ -32,7 +32,6 @@ const styles = (theme) => ({
         lineHeight: 2,
     },
     stepperSubtitle: {
-        lineHeight: 1.,
         fontSize: "17px"
     },
     stepperList: {

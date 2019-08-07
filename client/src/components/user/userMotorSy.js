@@ -96,7 +96,7 @@ import { motorSy, MOTOR_FLUCT_KEYS } from '../../constants'
                             }
 
                             { sy.display === "sub" && displaySub && 
-                                <span>
+                                <React.Fragment>
                                     {index === 5 && <span>
                                         <Hr full={true}/> 
                                         <UserSectionHead text="OK, tell us a bit more about your motor fluctations. Do you have any of the following problems?" />
@@ -115,7 +115,7 @@ import { motorSy, MOTOR_FLUCT_KEYS } from '../../constants'
 
                                     {index === 8 && <Hr full={true}/>}
 
-                                </span> 
+                                </React.Fragment> 
                             }
 
                         </React.Fragment>

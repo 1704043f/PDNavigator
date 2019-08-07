@@ -141,7 +141,12 @@ class UserMeds extends Component {
                 <br />
                 <UserNavButton type="button" width="100%" text="SAVE AND CONTINUE" handleBtn={this.handleNext} />
 
-                 { warningModal && <BtnPlusModal btnType="none" modalTitle="This question is important!" modalText="To suggest treatments you may benefit from we need to know what medications you currently take for Parkinson disease. Also, participation in many clinical trials and focus groups depends on how you are currently treated. Please take the time to tell us about the medications you take for Parkinson disease or select 'none' if you do not take any" modalWarning={true} /> }
+                 { warningModal && <BtnPlusModal
+                    btnType="none" 
+                    modalTitle="This question is important!" 
+                    modalText="To suggest treatments you may benefit from we need to know what medications you currently take for Parkinson disease. Also, participation in many clinical trials and focus groups depends on how you are currently treated. Please take the time to tell us about the medications you take for Parkinson disease or select 'none' if you do not take any" 
+                    modalWarning={true} 
+                /> }
 
             </React.Fragment>
         );
