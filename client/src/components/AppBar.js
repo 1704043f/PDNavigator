@@ -12,7 +12,7 @@ import HelpIcon from '@material-ui/icons/Help'
 import DashboardIcon from '@material-ui/icons/Dashboard'
 
 import { PRIMARY_COLOR, MAXWIDTH, MINHEIGHT } from '../themes.js'
-import AccountButton from './accountButton'
+import AccountButton from './AccountButton'
 
 const styles = (theme) => ({  
     topNavContainer: {
