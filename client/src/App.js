@@ -3,8 +3,8 @@ import Routes from './Routes';
 // import "./App.css";
 import { withRouter } from "react-router-dom";
 import { connect } from 'react-redux';
-import  AppBar from './components/AppBar';
-import Footer from './components/Footer';
+import  AppBar from './components/appBar';
+import Footer from './components/footer';
 
 class App extends Component {
   render() {
